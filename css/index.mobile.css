@@ -1,0 +1,238 @@
+@media screen and (max-width: 768px) {
+    .mobile_show {
+        display: block;
+    }
+    .mobile_hide {
+        display: none;
+    }
+    .fix_target{
+        margin-top: -.8rem;
+        padding-top: .8rem;
+    }
+    body {
+        min-width: auto;
+        overflow-x: hidden;
+        font-size: 16px;
+        padding-top: .6rem
+    }
+    .header {
+        /* height: 0.6rem; */
+        height: 0.6rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    .header .header_logo {
+        width: 0.8rem;
+        height: 0.2rem;
+        margin: 0.2rem;
+    }
+    .header_menu {
+        width: 0.24rem;
+        height: 0.24rem;
+        float: right;
+        margin-top: 0.18rem;
+        margin-right: 0.18rem
+    }
+    .header .header_btn_con {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 4.5rem;
+        width: 100%;
+        z-index: 1;
+        background: rgba(36, 111, 109, 0.6);
+        padding-left: 3.35rem;
+        padding-top: 0.6rem;
+        margin: 0;
+     
+    }
+    .header_btn_con_transition{
+        transition: left 0.5s;
+        -webkit-transition: left 0.5s;
+        -moz-transition: left 0.5s;
+    }
+
+    .header_btn_con .header_btn {
+        font-size: 0.14rem;
+        display: block;
+        line-height:0.3rem;
+        margin: 0;
+    }
+    .sys_desc {
+        position: relative;
+        height: 6.9rem;
+        padding-top: .65rem;
+        background-size: 100% 100%;
+        /* margin-top: 0.6rem; */
+    }
+    .desc_logo {
+        width: 1.65rem;
+        height: 1.9rem;
+        position: absolute;
+        bottom: 0.3rem;
+        left: 1.18rem;
+        margin: 0
+    }
+    .desc_content {
+        width: 3.4rem;
+        margin: 0 0 0 0.3rem;
+        float: none;
+    }
+    .desc_title {
+        font-size: .22rem;
+        color: #fff;
+        margin-bottom: .25rem
+    }
+    .desc_detail {
+        font-size: .16rem
+    }
+    .sys_dev, .sys_fun {
+        width: 100%;
+        min-width: 0;
+        padding-bottom: 0.3rem;
+    }
+    .sys_dev_title, .sys_fun_title {
+        font-size: 0.24rem;
+        margin-top: 0.45rem;
+        padding-bottom: 0.25rem;
+        border-bottom: 1px solid #E6E6E6;
+        width: 1.5rem;
+        margin: 0.45rem auto 0 auto;
+    }
+    .sys_dev_item {
+        width: 100%;
+        margin-top: 0.35rem
+    }
+    .sys_dev_item:first-child {
+        margin-top: 0.15rem
+    }
+    .sys_dev_item_header {
+        width: 0.8rem;
+        margin: 0 0.4rem 0 0.35rem;
+        float: left;
+    }
+    .sys_dev_item_icon {
+        width: 0.6rem;
+        height: 0.6rem;
+        padding: 0.13rem;
+        border-radius: 0.3rem;
+    }
+    .sys_dev_item_title {
+        font-size: 0.2rem;
+        margin: 0.22rem 0 0 0;
+    }
+    .sys_dev_item>div:last-child {
+        float: left;
+    }
+    .sys_dev_item label {
+        text-align: left;
+        font-size: 0.16rem;
+        line-height: 0.28rem
+    }
+    .sys_fun_item {
+        margin-top: 0.35rem
+    }
+    .sys_fun_item_left {
+        margin: 0;
+        padding-left: 1.15rem;
+        float: none;
+    }
+    .sys_fun_logo {
+        width: 0.7rem;
+        height: 0.7rem;
+        float: left;
+        margin-right: 0.35rem
+    }
+    .sys_fun_item_left h3 {
+        font-size: 0.2rem;
+        line-height: 0.7rem;
+        float: left;
+        color: #3D4E7F
+    }
+    .sys_fun_item_desc {
+        float: none;
+    }
+    .sys_fun_item_desc>div {
+        width: 3.76rem;
+        margin: 0 auto;
+    }
+    .sys_fun_item_desc span {
+        font-size: 0.18rem
+    }
+    .sys_fun_item_desc {
+        font-size: 0.16rem
+    }
+    .footer {
+        height: 2.79rem;
+        padding: 0.35rem 0.15rem 0.25rem 0.15rem
+    }
+    .footer_inner {
+        width: 100%;
+    }
+    .footer_inner h3 {
+        font-size: 0.16rem;
+        padding-bottom: 0.05rem;
+    }
+    .footer_inner label {
+        margin-top: 0.05rem;
+        float: none;
+        display: block;
+        font-size: 0.14rem;
+        width: auto
+    }
+    .footer_inner .credentials {
+        margin-top: 0.25rem;
+        font-size: 0.1rem;
+        text-align: center;
+    }
+    .modal {
+        position: fixed;
+        width: 3.5rem;
+        height: 2.5rem;
+        top: 50%;
+        left: 50%;
+        margin-top: -1rem;
+        margin-left: -1.75rem;
+        background: #fff;
+        border-radius:.1rem; 
+    }
+    .modal .modal_header {
+        height: 0.5rem;
+        line-height: 0.5rem;
+        font-size: 0.16rem;
+        color: #fff;
+        text-align: center;
+        background-size: 100% 100%;
+        
+        border-top-left-radius: .1rem;
+        border-top-right-radius: .1rem;
+        position: relative;
+    }
+    .modal .close_btn {
+        position: absolute;
+        width: 0.2rem;
+        height: 0.2rem;
+        top: 0.15rem;
+        right: 0.15rem;
+        line-height: 0;
+    }
+    .modal .modal_content {
+        box-sizing: border-box;
+        padding-left: 0.5rem;
+        padding-top: 0.2rem;
+    }
+    .modal .modal_content>div {
+        line-height: 0.3rem;
+        font-size: 0.16rem;
+        padding: 0.15rem 0;
+    }
+    .modal .modal_content img {
+        width: 0.3rem;
+        height: 0.3rem;
+        float: left;
+        margin-right: 0.1rem
+    }
+}

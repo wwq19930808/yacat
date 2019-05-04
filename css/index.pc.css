@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+html {
+    font-family: "SourceHanSansSC-regular";
+
+}
+
+body {
+    min-width: 1350px;
+    overflow: auto;
+    padding-top:100px 
+}
+.mobile_show{
+    display: none;
+}
+
+.fix_target{
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-image: url(../imgs/bg01.png);
+    background-size:100% 100% ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header .header_logo {
+    width: 140px;
+    height: 35px;
+    margin: 32.5px 0 32.5px 150px;
+    float: left;
+}
+
+.logo {
+    width: 100%;
+    height: 100%
+}
+
+.header .header_btn_con {
+    height: 100%;
+    line-height: 100px;
+    float: right;
+    margin-right: 150px
+}
+
+.header_btn_con .header_btn {
+    font-size: 18px;
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.sys_desc {
+    background: url(../imgs/bg01.png) no-repeat;
+    background-size:cover ;
+    height: 510px;
+    /* margin-top: 100px; */
+}
+
+
+.desc_logo {
+    width: 300px;
+    height: 350px;
+    margin: 60px 0 100px 170px;
+    float: left;
+}
+
+.desc_content {
+    float: right;
+    margin-right: 165px;
+    margin-top: 119px;
+    width: 682px;
+}
+
+.desc_title {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 43px
+}
+
+.desc_detail {
+    color: #fff;
+    font-size: 18px
+}
+
+.sys_dev,
+.sys_fun {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.sys_dev_title,
+.sys_fun_title {
+    font-size: 40px;
+    color: #3D4E7F;
+    margin: 80px auto 0 auto;
+    padding-bottom: 35px;
+    text-align: center;
+}
+
+.sys_dev_items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.sys_dev_item_icon {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    background: #f3fafe;
+    border-radius: 60px;
+    padding: 25px;
+}
+
+.sys_dev_item {
+    width: 248px;
+    float: left;
+    margin-top: 45px
+}
+
+.sys_dev_item_title {
+    margin: 20px 0 25px 0;
+    text-align: center;
+    font-size: 28px;
+    color: #3D4E7F
+}
+
+.sys_dev_item label {
+    display: block;
+    text-align: center;
+    color: #70859A;
+    font-size: 18px
+}
+
+.sys_fun_title {
+    padding-bottom: 10px
+}
+
+.sys_fun_item {
+    margin-top: 75px
+}
+
+.sys_fun_item_left {
+    float: left;
+    margin: 0 107px 15px 180px;
+}
+
+.sys_fun_logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 15px
+}
+
+.sys_fun_item_desc {
+    float: left;
+}
+
+.sys_fun_item_left h3 {
+    font-size: 28px;
+    color: #3D4E7F;
+    text-align: center
+}
+
+.sys_fun_item_desc span {
+    display: block;
+    font-size: 20px;
+    color: #70859A;
+
+}
+
+.sys_fun_item_desc .label_con {
+    margin-bottom: 20px
+}
+
+.sys_fun_item_desc p {
+    font-size: 18px;
+    color: #70859A
+}
+
+.footer{
+    height: 272px;
+    background: #163040;
+    padding:50px 0 30px 0;
+    box-sizing: border-box;
+
+}
+.footer_inner{
+    width: 1140px;
+    margin: 0 auto;
+}
+.footer_inner h3{
+    font-size: 20px;
+    color:#dfdfdf;
+    padding-bottom: 5px;
+}
+.footer_inner label{
+    width: 354px;
+    float:left;
+    margin-top: 20px;
+    color:#999;
+    font-size: 14px
+}
+
+.footer_inner .credentials{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+    color:#999
+}
+
+.modal{
+    position: fixed;
+    width: 460px;
+    height: 280px;
+    top:50%;
+    left:50%;
+    margin-top: -140px;
+    margin-left: -230px;
+    background: #fff;
+    border-radius: 10px;
+    display:none;
+     /* border: 1px solid gray; */
+    box-shadow:rgb(170, 170, 170) 0px 0px 5px 0px
+}
+.modal .modal_header{
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color:#fff;
+    text-align: center;
+    background-image: url(../imgs/bg02.png);
+    background-size: 100% 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative; 
+}
+
+.modal .close_btn{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top:20px;
+    right: 20px;
+    line-height: 0;
+}
+.modal .modal_content{
+    box-sizing: border-box;
+    padding-left: 130px;
+    padding-top: 20px;
+  
+}
+.modal .modal_content>div{
+    line-height: 30px;
+    font-size: 18px;
+    padding:15px 0;
+     
+}
+.modal .modal_content img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px
+}
